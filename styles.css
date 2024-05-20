@@ -1,0 +1,32 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 1fr 4fr 28fr;
+    grid-template-rows: 1fr 4fr;
+}
+
+@media{
+    import Icon from '@mdi/react';
+    import { mdiAccountBadge } from '@mdi/js';
+    
+    <Icon path={mdiAccountBadge} size={1} />
+    
+}
+
+.dashboard{
+    background-color: #0284c7;
+    grid-area: 1 / 1 / 4 / 2;
+}
+
+.header{
+    background-color: #e5e7eb;
+}
+
+.user{
+    background-color: #e5e7eb;
+}
+
+.main{
+    background-color: #d1d5db;
+}
